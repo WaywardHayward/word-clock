@@ -1,0 +1,25 @@
+/* Clock.module.css
+   Scoped to this component — these class names get hashed at build time
+   so .wrapper here will never conflict with any other .wrapper. */
+
+.wrapper {
+  text-align: center;
+}
+
+.time {
+  display: block;
+  font-family: ui-monospace, "Cascadia Code", monospace;
+  font-size: clamp(3rem, 10vw, 7rem); /* responsive: scales between 3rem–7rem */
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums; /* digits always same width — no jitter */
+  color: #ffffff;
+  line-height: 1;
+}
+
+.date {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #9ca3af; /* gray-400 */
+  letter-spacing: 0.03em;
+}
