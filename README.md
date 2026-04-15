@@ -44,4 +44,4 @@ Pushes to `main` auto-deploy to GitHub Pages via the included workflow.
 
 **Live:** [https://waywardhayward.github.io/word-clock](https://waywardhayward.github.io/word-clock)
 
-To enable, go to **Settings → Pages** in the repo and set the source to **GitHub Actions**.
+To enable, go to **Settings > Pages** in the repo and set the source to **GitHub Actions**.
