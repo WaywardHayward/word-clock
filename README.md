@@ -37,3 +37,11 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) to see the clock.
 
 In VS Code, press **F5** to launch the dev server and open the browser automatically.
+
+## Deployment
+
+Pushes to `main` auto-deploy to GitHub Pages via the included workflow.
+
+**Live:** [https://waywardhayward.github.io/word-clock](https://waywardhayward.github.io/word-clock)
+
+To enable, go to **Settings → Pages** in the repo and set the source to **GitHub Actions**.
